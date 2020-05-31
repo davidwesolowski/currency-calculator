@@ -34,10 +34,14 @@ public class CurrencyCalculator extends Application implements CalculatorInterfa
     
     private Map<String, Double> currencyMap = new TreeMap<>();
     
+    public Map getCurrencyMap() {
+        return this.currencyMap;
+    }
+    
     @Override
     public void parseDocument() {
         
-        String fileName = System.getProperty("user.dir") + "\\currencyStats.xml";
+        String fileName = "currencyStats.xml";
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
      
         try {
@@ -56,17 +60,16 @@ public class CurrencyCalculator extends Application implements CalculatorInterfa
                     this.currencyMap.put(currency, rate);
                 }
             }
-            
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
-        
     }
     
     @Override 
     public double calcCurrency(double money, String currency) {
-        
+        if (this.currencyMap.get(currency) == null)
+            return 0;
         double relatedRate = this.currencyMap.get(currency);
         double result = money * relatedRate;
         result = (double) Math.round(result * 100000) / 100000;
@@ -110,6 +113,7 @@ public class CurrencyCalculator extends Application implements CalculatorInterfa
         currencyLabel.setLayoutY(10);
         
         ComboBox currencyBox = new ComboBox();
+        
         currencyBox.setMaxWidth(100);
         currencyBox.setMaxHeight(50);
         currencyBox.setLayoutX(190);
@@ -118,7 +122,6 @@ public class CurrencyCalculator extends Application implements CalculatorInterfa
         for(String currency: currencyMap.keySet()) {
             currencyBox.getItems().add(currency);
         }
-            
         
         calcBtn.setOnAction(new EventHandler<ActionEvent>() {
             
@@ -154,9 +157,6 @@ public class CurrencyCalculator extends Application implements CalculatorInterfa
         primaryStage.show();
     }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         launch(args);
     }
