@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-2IHCOJM" name="currencycalculator.CurrencyCalculatorTest" skipped="0" tests="5" time="0.092" timestamp="2020-05-31T11:59:31">
+<testsuite errors="0" failures="0" hostname="DESKTOP-2IHCOJM" name="currencycalculator.CurrencyCalculatorTest" skipped="0" tests="5" time="0.238" timestamp="2020-05-31T22:06:51">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="PL" />
@@ -65,7 +65,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner currencycalculator.CurrencyCalculatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\build\test\results\TEST-currencycalculator.CurrencyCalculatorTest.xml crashfile=D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\build\junitvmwatcher5808711847411100065.properties propsfile=D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\build\junit7522540794855065785.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner currencycalculator.CurrencyCalculatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\build\test\results\TEST-currencycalculator.CurrencyCalculatorTest.xml crashfile=D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\build\junitvmwatcher8560450504600303717.properties propsfile=D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\build\junit4160845103307568226.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -109,7 +109,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
-    <property name="javac.includesfile.binary" value="D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\null751209572" />
+    <property name="javac.includesfile.binary" value="D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\null740458695" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value="C:\Program Files\Java\jdk1.8.0_201\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.8.0_201\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.8.0_201\jre/lib/plugin.jar:junit-4.13.jar:hamcrest-2.2.jar:build/classes" />
     <property name="netbeans.buildnumber" value="201411181905" />
@@ -122,7 +122,6 @@
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 8.0.2\ide\docs\jaxb-api-doc.zip" />
     <property name="libs.struts.classpath" value="C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\commons-beanutils-1.8.0.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\commons-chain-1.2.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\standard-1.0.6.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\struts-core-1.3.10.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\struts-el-1.3.10.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\struts-extras-1.3.10.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\struts-faces-1.3.10.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.10.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\struts-scripting-1.3.10.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\struts-taglib-1.3.10.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\struts\struts-tiles-1.3.10.jar" />
-    <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
     <property name="javac.includes.binary" value="D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\build\test\classes\currencycalculator\CurrencyCalculatorTest.class" />
     <property name="ant.home" value="C:\Program Files\NetBeans 8.0.2\extide\ant" />
     <property name="javafx.run.height" value="600" />
@@ -289,8 +288,8 @@
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 8.0.2\java\modules\ext\nb-javac-api.jar" />
     <property name="java.version" value="1.8.0_201" />
-    <property name="javadoc.version" value="false" />
     <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
     <property name="libs.MySQLDriver.javadoc" value="" />
     <property name="org.openide.version" value="deprecated" />
     <property name="source.encoding" value="UTF-8" />
@@ -323,8 +322,8 @@
     <property name="javafx.fallback.class" value="com.javafx.main.NoJavaFXFallback" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.specification.version" value="1.8" />
-    <property name="libs.jaxws21.maven-pom" value="" />
     <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.jaxws21.maven-pom" value="" />
     <property name="nb.junit.batch" value="true" />
     <property name="junit.forkmode" value="perTest" />
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes" />
@@ -333,8 +332,8 @@
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
-    <property name="annotation.processing.enabled" value="true" />
     <property name="libs.jpa2-persistence.src" value="" />
+    <property name="annotation.processing.enabled" value="true" />
     <property name="libs.jsf20.src" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="libs.DataBindingME-SVG.maven-pom" value="" />
@@ -351,12 +350,12 @@
     <property name="testng.debug.mode" value="" />
     <property name="libs.groovy-all.classpath" value="C:\Program Files\NetBeans 8.0.2\groovy\modules\ext\groovy-all.jar" />
     <property name="javac.fork" value="false" />
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="ant.file.CurrencyCalculator" value="D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\build.xml" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="default.javac.source" value="1.8" />
     <property name="debug-transport-by-os" value="dt_shmem" />
-    <property name="sun.jnu.encoding" value="Cp1250" />
     <property name="libs.MySQLDriver.src" value="" />
+    <property name="sun.jnu.encoding" value="Cp1250" />
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="java.runtime.version" value="1.8.0_201-b09" />
     <property name="javafx.run.inbrowser" value="&lt;Default System Browser&gt;" />
@@ -364,11 +363,11 @@
     <property name="user.timezone" value="" />
     <property name="nb.junit.single" value="false" />
     <property name="do.jar" value="true" />
-    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
+    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
     <property name="netbeans.dirs" value="C:\Program Files\NetBeans 8.0.2\nb;C:\Program Files\NetBeans 8.0.2\ergonomics;C:\Program Files\NetBeans 8.0.2\ide;C:\Program Files\NetBeans 8.0.2\extide;C:\Program Files\NetBeans 8.0.2\java;C:\Program Files\NetBeans 8.0.2\apisupport;C:\Program Files\NetBeans 8.0.2\webcommon;C:\Program Files\NetBeans 8.0.2\websvccommon;C:\Program Files\NetBeans 8.0.2\enterprise;C:\Program Files\NetBeans 8.0.2\mobility;C:\Program Files\NetBeans 8.0.2\profiler;C:\Program Files\NetBeans 8.0.2\python;C:\Program Files\NetBeans 8.0.2\php;C:\Program Files\NetBeans 8.0.2\identity;C:\Program Files\NetBeans 8.0.2\harness;C:\Program Files\NetBeans 8.0.2\cnd;C:\Program Files\NetBeans 8.0.2\dlight;C:\Program Files\NetBeans 8.0.2\groovy;C:\Program Files\NetBeans 8.0.2\extra;C:\Program Files\NetBeans 8.0.2\javacard;C:\Program Files\NetBeans 8.0.2\javafx" />
-    <property name="libs.jstl.javadoc" value="C:\Program Files\NetBeans 8.0.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.jsf20.javadoc" value="C:\Program Files\NetBeans 8.0.2\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.jstl.javadoc" value="C:\Program Files\NetBeans 8.0.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
     <property name="libs.metro.src" value="" />
     <property name="endorsed.classpath" value="" />
@@ -395,8 +394,8 @@
     <property name="javafx.deploy.allowoffline" value="true" />
     <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans 8.0.2\ide\modules\ext\jaxb\api\jaxb-api.jar" />
     <property name="nb.internal.action.name" value="test.single" />
-    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 8.0.2\java\modules\ext\eclipselink\eclipselink.jar;C:\Program Files\NetBeans 8.0.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar;C:\Program Files\NetBeans 8.0.2\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
     <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.0.2\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 8.0.2\java\modules\ext\eclipselink\eclipselink.jar;C:\Program Files\NetBeans 8.0.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar;C:\Program Files\NetBeans 8.0.2\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
     <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 8.0.2\java\docs\beansbinding-1.2.1-doc.zip" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
@@ -414,25 +413,25 @@
     <property name="libs.hibernate4-persistencemodelgen.classpath" value="C:\Program Files\NetBeans 8.0.2\java\modules\ext\hibernate4\hibernate-jpamodelgen-4.3.1.Final.jar" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="main.class" value="com.javafx.main.Main" />
-    <property name="libs.CopyLibs.src" value="" />
     <property name="build.dir" value="build" />
+    <property name="libs.CopyLibs.src" value="" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans 8.0.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans 8.0.2\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans 8.0.2\extide\ant\lib\ant-launcher.jar" />
     <property name="ant.file.CurrencyCalculator-impl" value="D:\Users\Dawid\Desktop\java\CurrencyCalculator\CurrencyCalculator\nbproject\build-impl.xml" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
     <property name="file.encoding" value="Cp1250" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
-    <property name="jdkBug6558476" value="false" />
     <property name="javadoc.nonavbar" value="false" />
+    <property name="jdkBug6558476" value="false" />
     <property name="libs.spring-webmvc4.0.classpath" value="C:\Program Files\NetBeans 8.0.2\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar" />
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.0.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testCalcCurrencyCorrectCurrency" time="0.022" />
-  <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testCalcCurrencyFakeCurrency" time="0.0" />
-  <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testParseDocumentCurrencyHasValue" time="0.004" />
+  <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testCalcCurrencyCorrectCurrency" time="0.068" />
+  <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testCalcCurrencyFakeCurrency" time="0.001" />
+  <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testParseDocumentCurrencyHasValue" time="0.01" />
   <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testParseDocumentCurrencyMapEmpty" time="0.0" />
-  <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testParseDocumentCurrencyMapSize" time="0.003" />
+  <testcase classname="currencycalculator.CurrencyCalculatorTest" name="testParseDocumentCurrencyMapSize" time="0.008" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

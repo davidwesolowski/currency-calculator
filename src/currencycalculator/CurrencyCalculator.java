@@ -114,13 +114,14 @@ public class CurrencyCalculator extends Application implements CalculatorInterfa
         
         ComboBox currencyBox = new ComboBox();
         
-        currencyBox.setMaxWidth(100);
+        currencyBox.setMaxWidth(140);
         currencyBox.setMaxHeight(50);
         currencyBox.setLayoutX(190);
         currencyBox.setLayoutY(40);
         
-        for(String currency: currencyMap.keySet()) {
-            currencyBox.getItems().add(currency);
+        for(String currency: this.currencyMap.keySet()) {
+            String comboItem = currency + ": " + this.currencyMap.get(currency);
+            currencyBox.getItems().add(comboItem);
         }
         
         calcBtn.setOnAction(new EventHandler<ActionEvent>() {
@@ -129,7 +130,7 @@ public class CurrencyCalculator extends Application implements CalculatorInterfa
             public void handle(ActionEvent event) {
                 try {
                     double money = Double.parseDouble(inputField.getText());
-                    String currency = String.valueOf(currencyBox.getValue());
+                    String currency = String.valueOf(currencyBox.getValue()).split(":")[0];
                     double calculatedMoney = calcCurrency(money, currency);
                     outputField.setText(Double.toString(calculatedMoney));
                 }

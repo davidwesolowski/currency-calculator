@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="CurrencyCalculator.jar" size="5412" download="eager" />
+    <jar href="CurrencyCalculator.jar" size="5552" download="eager" />
     <jar href="lib\hamcrest-2.2.jar" size="123360" download="eager" />
     <jar href="lib\junit-4.13.jar" size="381765" download="eager" />
   </resources>
